@@ -1,0 +1,30 @@
+
+
+.site-header{
+   background-color: #F9C10B;
+}
+.fa-solid{
+margin: 5px;
+}
+
+/* Footer */
+footer{
+   background-color: #e3ab33;
+   height: 50px;
+}
+.site-footer-wrap{
+   margin: 10px;
+   
+}
+.site-footer-wrap p{
+color: white;
+}
+
+
+.carousel-image-wrap img{
+   width: 100%;
+}
+
+.span-text-danger{
+   color: red;
+}
