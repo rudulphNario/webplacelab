@@ -815,10 +815,15 @@ strong {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .contact-number{
+    position: relative;
+  }
 
   .site-header .social-icon {
-    text-align: left;
-    margin-top: 10px;
+    position: absolute;
+    left: 230px;
+    margin-top: -30px;
+    z-index: 300;
   }
 
   .carousel-caption {
