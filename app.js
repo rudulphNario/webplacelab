@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
+const _ = require("lodash");
 const port = 3000
 
 
@@ -19,6 +20,7 @@ app.use(express.static("public"));
 app.get("/", function(req, res){
     res.render('home');
 });
+
 
 
 
