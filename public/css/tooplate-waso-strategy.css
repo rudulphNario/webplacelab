@@ -674,8 +674,27 @@ strong {
 .contact-form {
   margin-top: 30px;
   margin-right: 30px;
+  background-color: rgb(225, 198, 87);
+  border-radius: 25px;
+  color: #060606;
+  padding: 25px;
+}
+.contact-form ::placeholder {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: red;
+  opacity: .5; /* Firefox */
 }
 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Courier New', Courier, monospace;
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: 'Courier New', Courier, monospace;
+ color: red;
+}
 
 /*---------------------------------------
   CUSTOM FORM               

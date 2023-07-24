@@ -444,11 +444,9 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-6 col-12">
-                                <form class="custom-form contact-form" action="" method="post" role="form">
+                            <div class="col-lg-6 col-12 contact-border">
+                                <form class="custom-form contact-form" onsubmit="sendEmail(); reset(); return false; ">
                                     <small class="small-title"><u>Contact Us </u></small>
-
-                                    <h2 class="mb-5">Say Hi to us</h2>
 
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12">
@@ -459,6 +457,11 @@
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
                                                 class="form-control" placeholder="your@company.com" required="">
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <input type="text" name="phone" id="phone" class="form-control"
+                                                placeholder="Phone Number" required="">
                                         </div>
 
                                         <div class="col-12">
