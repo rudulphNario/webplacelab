@@ -21,6 +21,10 @@ app.get("/", function(req, res){
     res.render('home');
 });
 
+app.get("/payment_process", function(req, res){
+    res.render('payment_instruction');
+})
+
 
 
 
