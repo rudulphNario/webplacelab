@@ -20,6 +20,9 @@ app.use(express.static("public"));
 app.get("/", function(req, res){
     res.render('home');
 });
+app.get("/contact", function(req, res){
+    res.render('contact');
+})
 
 app.get("/payment_process", function(req, res){
     res.render('payment_instruction');
