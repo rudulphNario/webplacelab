@@ -1,3 +1,15 @@
 nav.link.active{
     color: red;
 }
+.social-icon-link img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 50px;
+    display: block;
+}
+.social-icon-link img:hover{
+    width: 26px;
+    height: 26px;
+    background-color: #F6BF0B;
+}
