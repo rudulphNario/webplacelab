@@ -29,12 +29,53 @@ app.get("/service", function(req, res){
 app.get("/project", function(req, res){
     res.render('project');
 });
-app.get("/support", function(req, res){
-    res.render('support');
-});
+
 app.get("/contact", function(req, res){
     res.render('contact');
 });
+
+/*----------------------
+    Support Offered
+------------------------*/
+
+app.get("/faq", function(req, res){
+    res.render('faq');
+});
+
+app.get("/support", function(req, res){
+    res.render('support');
+});
+
+/*------------------------
+    Service offered 
+--------------------------*/
+app.get("/website_design", function(req, res){
+    res.render('website_design');
+});
+app.get("/seo", function(req, res){
+    res.render('seo');
+});
+app.get("/digital_marketing", function(req, res){
+    res.render('digital_marketing');
+});
+app.get("/maintenance", function(req, res){
+    res.render('maintenance');
+});
+app.get("/wordpress_design", function(req, res){
+    res.render('wordpress_design');
+});
+
+app.get("/ecommerce", function(req, res){
+    res.render('ecommerce');
+});
+
+app.get("/ui_ux", function(req, res){
+    res.render('ui_ux');
+});
+
+
+
+
 
 app.get("/payment_process", function(req, res){
     res.render('payment_instruction');
