@@ -2,19 +2,44 @@ nav.link.active{
     color: red;
 }
 .social-icon-link img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
-    margin-right: 50px;
     display: block;
 }
 .social-icon-link img:hover{
-    width: 26px;
-    height: 26px;
     background-color: #F6BF0B;
 }
-img.contact-icon{
-    width: 25px;
-    height: 25px;
+
+
+
+
+/* ---------------------------------------
+       FAQ FREQUENTLY ASKED QUESTION
+-----------------------------------------*/
+
+.faq-h3{
+    padding-top: 20px;
 }
 
+
+/* --------------------------------------
+        Maintenance Section
+----------------------------------------*/
+.maintenance-p{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.google-map{
+    border-radius: 20px;
+}
+
+/* -------------------------------------
+          Footer
+---------------------------------------*/
+.site-footer ul{
+    list-style: none;
+}
+.site-footer a:hover{
+    color: #DC3454;
+}

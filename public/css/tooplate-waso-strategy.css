@@ -771,8 +771,6 @@ strong {
   display: inline-block;
   vertical-align: bottom;
   margin: 2px;
-  width: 25px;
-  height: 25px;
   line-height: 30px;
   text-align: center;
 }
@@ -926,6 +924,7 @@ strong {
 
   .site-footer-wrap {
     flex-direction: column;
+    
   }
 
   .copyright-text {
