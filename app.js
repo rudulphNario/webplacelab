@@ -73,9 +73,32 @@ app.get("/ui_ux", function(req, res){
     res.render('ui_ux');
 });
 
+/*---------------------------
+        Extra
+---------------------------*/
+app.get("/blog", function(req, res){
+    res.render('blog');
+});
 
 
+app.get('/policy', function (req,res){
+    res.render('policy')
+});
 
+
+app.get('/terms_use', function(req, res){
+    res.render('terms_use')
+});
+
+app.get('/graphic-design', function(req, res){
+    res.render('graphic-design')
+});
+app.get('/shopify', function(req, res){
+    res.render('shopify')
+});
+app.get('/wordpress', function(req, res){
+    res.render('wordpress')
+});
 
 app.get("/payment_process", function(req, res){
     res.render('payment_instruction');
