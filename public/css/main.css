@@ -13,6 +13,15 @@ nav.link.active{
 
 
 
+img.logo{
+    position: absolute;
+    float: left;
+    margin-left: -10%;
+    margin-top: -80px;
+    width: 11%;
+    z-index: 2000;
+}
+
 
 /* ---------------------------------------
        FAQ FREQUENTLY ASKED QUESTION
@@ -42,4 +51,11 @@ nav.link.active{
 }
 .site-footer a:hover{
     color: #DC3454;
+}
+
+@media screen and (max-width: 500px) {
+    img.logo{
+        display: none;
+       
+    }
 }
