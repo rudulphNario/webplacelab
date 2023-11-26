@@ -790,11 +790,6 @@ strong {
   }
 
 }
-@media screen and (min-width: 1200px) {
-  img.logo{
-    padding-top: 50px;
-  }
-}
 
 @media screen and (max-width: 1280px) {
   .contact svg {
@@ -883,10 +878,7 @@ strong {
   .site-footer {
     text-align: center;
   }
-  img.logo{
-    padding-top: 60px;
 }
-
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 38px;

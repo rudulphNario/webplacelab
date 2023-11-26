@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
+
+
 nav.link.active{
     color: red;
 }
@@ -10,18 +13,6 @@ nav.link.active{
 .social-icon-link img:hover{
     background-color: #F6BF0B;
 }
-
-
-
-img.logo{
-    position: absolute;
-    float: left;
-    margin-left: -10%;
-    margin-top: -80px;
-    width: 11%;
-    z-index: 2000;
-}
-
 
 /* ---------------------------------------
        FAQ FREQUENTLY ASKED QUESTION
@@ -51,6 +42,42 @@ img.logo{
 }
 .site-footer a:hover{
     color: #DC3454;
+}
+
+/* ------------------------------------
+    New / redesign Website Package
+-------------------------------------*/
+
+.web-redesign{
+    margin-top: 20px;
+}
+.web-redesign img{
+    width: 75%;
+  margin-left: 150px;
+}
+.web-redesign p{
+    line-height: 2;
+}
+.web-redesign h2{
+    margin-top: 27px;
+}
+.card{
+    background-color: #d9e4e6;
+    border-radius: 5%;
+    box-shadow: 5px 10px #aeb2b3;
+    margin-top: 50px;
+}
+
+.card-title{
+    border-bottom: 2px solid black;
+}
+.card-title:hover{   
+    font-size: 1.7rem;
+   
+}
+
+.card li{
+   list-style-type: disc;
 }
 
 @media screen and (max-width: 500px) {
