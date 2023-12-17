@@ -79,6 +79,11 @@ nav.link.active{
 .card li{
    list-style-type: disc;
 }
+.note{
+    color:#DC3454;
+    font-weight: bold;
+    margin-left: 50px;
+}
 
 @media screen and (max-width: 500px) {
     img.logo{
