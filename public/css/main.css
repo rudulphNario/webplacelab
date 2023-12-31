@@ -85,9 +85,3 @@ nav.link.active{
     margin-left: 50px;
 }
 
-@media screen and (max-width: 500px) {
-    img.logo{
-        display: none;
-       
-    }
-}
