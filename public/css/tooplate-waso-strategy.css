@@ -879,7 +879,7 @@ strong {
     text-align: center;
   }
 }
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 38px;
   }
@@ -931,5 +931,9 @@ strong {
   .copyright-text {
     padding-bottom: 10px;
   }
+  .google-map{
+    width: 100%;
+    
+  }
 }
- */
+
